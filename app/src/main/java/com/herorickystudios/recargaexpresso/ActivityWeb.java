@@ -21,7 +21,7 @@ public class ActivityWeb extends AppCompatActivity {
         webV=(WebView)findViewById(R.id.webView);
 
         //URL do site
-        String url= "recargaexpresso.com.br/app/";
+        String url= "recargaexpresso.com.br/site";
 
         //WebViewClient() para que se abra dentro de la aplicacion
         webV.setWebViewClient(new WebViewClient());
